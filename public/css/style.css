@@ -1,0 +1,252 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.logoG {
+    padding-top: 25px;
+    padding-left: 5px;
+}
+
+.logoG img {
+    width: 200px;
+}
+
+.lienPage {
+    width: 400px;
+    padding-left: 5rem;
+}
+
+.lienPage div{
+    display: inline-block;
+    text-align: center;
+    /* padding-right: -15px; */
+    width: 15%;
+}
+
+.lienPage img{
+    height: 50px;
+    width: 50px;
+}
+
+.lienPage p{
+    color: white;
+    text-align: center;
+    font-size: 9px;
+}
+
+
+/* SECTION 1  */
+
+.section1 {
+    height: 12rem;
+    background-color:rgb( 51, 77, 92);
+    display: flex;
+    padding: 2rem;
+}
+
+.section1 img {
+    padding-left: 1rem;
+    padding-top: 10px;
+}
+
+.section1 div:nth-child(2){
+    padding-left: 10%;
+    padding-top: 25px;
+    width: 10rem;
+}
+
+.section1 p{
+    font-size: 30px;
+    margin: 0;
+    color: white;
+    width: max-content;
+}
+
+.section1 p:nth-child(2){
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Section 2 */
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.section2 p:nth-child(1){
+    background-color:rgb( 51, 77, 92);
+    color: white;
+    text-align: center;
+    margin-left: 35%;
+    padding: 15px 60px;
+    font-size: 40px;
+}
+
+.section2 div:nth-child(1){
+    display: flex;
+    padding-left: 10px;
+}
+
+.section2 p:nth-child(2){
+    color:rgb( 51, 77, 92);
+    text-align: justify;
+    /* padding: 50px; */
+    margin-left: 15%;
+    width: 50%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Section 3 */
+
+.section3 {
+    background-color:antiquewhite;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section3 img{
+    width: 25%;
+}
+
+.section3 table{
+    text-align: center;
+    margin:auto;
+}
+
+/* Section 4 */
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.section4 p:nth-child(1){
+    background-color:rgb( 51, 77, 92);
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+    padding: 15px 60px;
+    font-size: 40px;
+}
+
+.section4 div:nth-child(1){
+    display: flex;
+    padding-left: 50px;
+}
+
+.section4 p:nth-child(2){
+    color:rgb( 51, 77, 92);
+    text-align: justify;
+    /* padding: 50px; */
+    margin-left: 15%;
+    width: 50%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* Section 5 */
+
+.section5 {
+    background-color:antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section5 img{
+    width: 25%;
+}
+
+.section5 table{
+    text-align: center;
+    margin:auto ;
+}
+
+/* Section 6 */
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.section6 p:nth-child(1){
+    background-color:rgb( 51, 77, 92);
+    color: white;
+    text-align: center;
+    margin-left: 35%;
+    padding: 15px 60px;
+    font-size: 40px;
+}
+
+.section6 div:nth-child(1){
+    display: flex;
+    padding-left: 50px;
+}
+
+.section6 p:nth-child(2){
+    color:rgb( 51, 77, 92);
+    text-align: justify;
+    /* padding: 50px; */
+    margin-left: 15%;
+    width: 50%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Section 7 */
+
+.section7 {
+    background-color:antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section7 img{
+    width: 25%;
+}
+
+.section7 table{
+    text-align: center;
+    margin:auto ;
+}
+
+
+/* Footer */
+
+footer {
+    height: 300px;
+    background-color: rgb(57, 58, 59);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+footer p{
+    padding-left: 10px;
+}
+
+footer img{
+    width: 50px;
+    padding: 10px;
+}
